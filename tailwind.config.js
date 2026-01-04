@@ -11,6 +11,12 @@ module.exports = {
         background: "var(--background)",
         foreground: "var(--foreground)",
       },
+      fontFamily: {
+        sans: ['var(--font-inter)', 'system-ui', 'sans-serif'],
+      },
+      gridTemplateColumns: {
+        '52': 'repeat(52, minmax(0, 1fr))',
+      },
     },
   },
   plugins: [],
