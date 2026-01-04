@@ -37,7 +37,7 @@ export default function PrivacyPolicy() {
         {/* Content */}
         <div className="prose prose-invert prose-neutral max-w-none">
           <p className="text-white/80 text-lg mb-6">
-            <span className="text-white font-medium">InHue, LLC</span> ("InHue," "we," "us," or "our") operates the InHue mobile application (the "App"). This Privacy Policy explains how we collect, use, and protect your information when you use our App.
+            <span className="text-white font-medium">InHue, LLC</span> (&ldquo;InHue,&rdquo; &ldquo;we,&rdquo; &ldquo;us,&rdquo; or &ldquo;our&rdquo;) operates the InHue mobile application (the &ldquo;App&rdquo;). This Privacy Policy explains how we collect, use, and protect your information when you use our App.
           </p>
           <p className="text-white/80 mb-8">
             By using InHue, you agree to the collection and use of information as described in this policy.
@@ -66,7 +66,7 @@ export default function PrivacyPolicy() {
               <p>If you use the sharing feature, we collect:</p>
               <ul>
                 <li>Information about who you connect with (user IDs and display names)</li>
-                <li>"Thinking of You" messages sent and received</li>
+                <li>&ldquo;Thinking of You&rdquo; messages sent and received</li>
               </ul>
             </Subsection>
 
@@ -104,7 +104,7 @@ export default function PrivacyPolicy() {
 
             <Subsection title="With Service Providers">
               <p>
-                We use Firebase (Google) to provide authentication and data storage. Your data is stored securely on Firebase servers. See Google's privacy policy at{" "}
+                We use Firebase (Google) to provide authentication and data storage. Your data is stored securely on Firebase servers. See Google&apos;s privacy policy at{" "}
                 <a
                   href="https://policies.google.com/privacy"
                   target="_blank"
@@ -133,7 +133,7 @@ export default function PrivacyPolicy() {
 
           <Section title="Your Choices">
             <Subsection title="Access and Update">
-              <p>You can view and update your display name and account information within the App's Settings.</p>
+              <p>You can view and update your display name and account information within the App&apos;s Settings.</p>
             </Subsection>
 
             <Subsection title="Delete Your Account">
@@ -147,13 +147,13 @@ export default function PrivacyPolicy() {
             </Subsection>
 
             <Subsection title="Notifications">
-              <p>You can enable or disable push notifications in the App's Settings or through your device settings.</p>
+              <p>You can enable or disable push notifications in the App&apos;s Settings or through your device settings.</p>
             </Subsection>
           </Section>
 
           <Section title="Data Security">
             <p>
-              We take reasonable measures to protect your information from unauthorized access, loss, or misuse. Data is transmitted securely using encryption and stored on Firebase's secure infrastructure.
+              We take reasonable measures to protect your information from unauthorized access, loss, or misuse. Data is transmitted securely using encryption and stored on Firebase&apos;s secure infrastructure.
             </p>
             <p>
               However, no method of electronic transmission or storage is 100% secure, and we cannot guarantee absolute security.

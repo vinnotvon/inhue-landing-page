@@ -38,10 +38,10 @@ export default function TermsOfService() {
         <div className="prose prose-invert prose-neutral max-w-none">
           <Section title="1. Acceptance of Terms">
             <p>
-              By downloading, accessing, or using the InHue mobile application ("App"), you agree to be bound by these Terms of Service ("Terms"). If you do not agree to these Terms, do not use the App.
+              By downloading, accessing, or using the InHue mobile application (&ldquo;App&rdquo;), you agree to be bound by these Terms of Service (&ldquo;Terms&rdquo;). If you do not agree to these Terms, do not use the App.
             </p>
             <p>
-              InHue is operated by <span className="text-white font-medium">InHue, LLC</span> ("InHue," "we," "us," or "our").
+              InHue is operated by <span className="text-white font-medium">InHue, LLC</span> (&ldquo;InHue,&rdquo; &ldquo;we,&rdquo; &ldquo;us,&rdquo; or &ldquo;our&rdquo;).
             </p>
           </Section>
 
@@ -69,7 +69,7 @@ export default function TermsOfService() {
 
           <Section title="4. User Content">
             <p>
-              You retain ownership of any content you create in the App, including your mood ratings, notes, and tags ("User Content").
+              You retain ownership of any content you create in the App, including your mood ratings, notes, and tags (&ldquo;User Content&rdquo;).
             </p>
             <p>
               By using the App, you grant InHue a limited license to store, process, and display your User Content solely for the purpose of providing the service to you and those you choose to share with.
@@ -90,7 +90,7 @@ export default function TermsOfService() {
             <ul>
               <li>Use the App for any unlawful purpose</li>
               <li>Attempt to gain unauthorized access to any part of the App</li>
-              <li>Interfere with or disrupt the App's functionality</li>
+              <li>Interfere with or disrupt the App&apos;s functionality</li>
               <li>Harass, abuse, or harm other users</li>
               <li>Impersonate any person or entity</li>
               <li>Upload malicious code or content</li>
@@ -105,7 +105,7 @@ export default function TermsOfService() {
 
           <Section title="8. Disclaimer of Warranties">
             <p>
-              The App is provided "as is" and "as available" without warranties of any kind, either express or implied.
+              The App is provided &ldquo;as is&rdquo; and &ldquo;as available&rdquo; without warranties of any kind, either express or implied.
             </p>
             <div className="bg-amber-500/10 border-l-[3px] border-amber-500/50 rounded-r-lg px-5 py-4 my-4">
               <p className="text-white/90 mb-0">

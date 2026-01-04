@@ -248,7 +248,7 @@ export default function InHueLanding() {
         <div className="max-w-3xl mx-auto text-center">
           <div className="min-h-[160px] flex flex-col justify-center">
             <p className="text-2xl sm:text-3xl font-medium mb-6 transition-opacity duration-500">
-              "{testimonialScenarios[currentTestimonial].quote}"
+              &ldquo;{testimonialScenarios[currentTestimonial].quote}&rdquo;
             </p>
             <p className="text-neutral-500">
               — {testimonialScenarios[currentTestimonial].context}
@@ -275,7 +275,7 @@ export default function InHueLanding() {
             Start tracking your year
           </h2>
           <p className="text-neutral-400 text-lg mb-10">
-            It takes 5 seconds a day. By December, you'll have a year of colors to look back on.
+            It takes 5 seconds a day. By December, you&apos;ll have a year of colors to look back on.
           </p>
           <AppStoreBadge />
         </div>
