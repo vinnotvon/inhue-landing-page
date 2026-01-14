@@ -105,7 +105,7 @@ function PaletteSelector({ selected, onSelect }) {
 function AppStoreBadge() {
   return (
     <a
-      href="#"
+      href="https://apps.apple.com/app/id6757321223"
       className="inline-flex items-center gap-2 bg-white text-black px-5 py-3 rounded-xl font-medium hover:bg-neutral-200 transition-colors"
     >
       <svg className="w-6 h-6" viewBox="0 0 24 24" fill="currentColor">
@@ -248,7 +248,7 @@ export default function InHueLanding() {
         <div className="max-w-3xl mx-auto text-center">
           <div className="min-h-[160px] flex flex-col justify-center">
             <p className="text-2xl sm:text-3xl font-medium mb-6 transition-opacity duration-500">
-              &ldquo;{testimonialScenarios[currentTestimonial].quote}&rdquo;
+              "{testimonialScenarios[currentTestimonial].quote}"
             </p>
             <p className="text-neutral-500">
               — {testimonialScenarios[currentTestimonial].context}
@@ -268,73 +268,6 @@ export default function InHueLanding() {
         </div>
       </section>
 
-      {/* Support */}
-      <section id="support" className="py-20 px-6 border-t border-white/5">
-        <div className="max-w-2xl mx-auto">
-          <h2 className="text-3xl sm:text-4xl font-bold text-center mb-4">
-            Support
-          </h2>
-          <p className="text-neutral-400 text-center mb-8">
-            Questions or feedback? We&apos;re here to help.
-          </p>
-          
-          <div className="flex justify-center mb-12">
-            <a
-              href="mailto:support@inhue.io"
-              className="inline-flex items-center gap-2 px-5 py-3 bg-white/5 hover:bg-white/10 border border-white/10 rounded-xl text-white transition-colors"
-            >
-              <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
-              </svg>
-              support@inhue.io
-            </a>
-          </div>
-
-          <div className="space-y-3">
-            <details className="group bg-white/5 rounded-xl border border-white/5">
-              <summary className="flex justify-between items-center cursor-pointer px-5 py-4 text-white font-medium">
-                How do I invite family members?
-                <span className="text-neutral-500 group-open:rotate-180 transition-transform">▾</span>
-              </summary>
-              <p className="px-5 pb-4 text-neutral-400 text-sm">
-                Open the Family tab in the app and tap &ldquo;Invite&rdquo; to send an invitation link to your family members.
-              </p>
-            </details>
-
-            <details className="group bg-white/5 rounded-xl border border-white/5">
-              <summary className="flex justify-between items-center cursor-pointer px-5 py-4 text-white font-medium">
-                Can others see my notes?
-                <span className="text-neutral-500 group-open:rotate-180 transition-transform">▾</span>
-              </summary>
-              <p className="px-5 pb-4 text-neutral-400 text-sm">
-                No. Only your mood colors are shared with connections—your notes and tags are always private.
-              </p>
-            </details>
-
-            <details className="group bg-white/5 rounded-xl border border-white/5">
-              <summary className="flex justify-between items-center cursor-pointer px-5 py-4 text-white font-medium">
-                How do I change my color palette?
-                <span className="text-neutral-500 group-open:rotate-180 transition-transform">▾</span>
-              </summary>
-              <p className="px-5 pb-4 text-neutral-400 text-sm">
-                Go to Settings → Color Palette to choose from the available options.
-              </p>
-            </details>
-
-            <details className="group bg-white/5 rounded-xl border border-white/5">
-              <summary className="flex justify-between items-center cursor-pointer px-5 py-4 text-white font-medium">
-                Is my data private?
-                <span className="text-neutral-500 group-open:rotate-180 transition-transform">▾</span>
-              </summary>
-              <p className="px-5 pb-4 text-neutral-400 text-sm">
-                Yes. Your data is stored securely and never sold. Read our{" "}
-                <a href="/privacy" className="text-white underline hover:no-underline">Privacy Policy</a> for details.
-              </p>
-            </details>
-          </div>
-        </div>
-      </section>
-
       {/* CTA */}
       <section className="py-24 px-6 border-t border-white/5">
         <div className="max-w-2xl mx-auto text-center">
@@ -342,7 +275,7 @@ export default function InHueLanding() {
             Start tracking your year
           </h2>
           <p className="text-neutral-400 text-lg mb-10">
-            It takes 5 seconds a day. By December, you&apos;ll have a year of colors to look back on.
+            It takes 5 seconds a day. By December, you'll have a year of colors to look back on.
           </p>
           <AppStoreBadge />
         </div>
@@ -369,7 +302,7 @@ export default function InHueLanding() {
               <a href="/terms" className="hover:text-white transition-colors">
                 Terms
               </a>
-              <a href="#support" className="hover:text-white transition-colors">
+              <a href="mailto:support@inhue.io" className="hover:text-white transition-colors">
                 Support
               </a>
             </div>
